@@ -19,7 +19,7 @@
 
       <div class="main-page-box">
 
-        <div class="user-level">LVL 99</div>
+        <div class="user-level" id="user-lvl">LVL 99</div>
 
         <div class="user-value">
           <img src="./img/cn-icon.svg" alt="i">
@@ -104,9 +104,16 @@
 <script src="./js/main.js?v=3"></script>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script>
+  
+
   let tg = window.Telegram.WebApp; //получаем объект webapp телеграма 
 
   tg.expand();
+
+  let userLevel = 100; // Пример значения, полученного из базы данных
+
+  // Обновляем элемент пользовательского уровня
+  document.getElementById('user-lvl').textContent = userLevel;
 
 </script>
 </body>
