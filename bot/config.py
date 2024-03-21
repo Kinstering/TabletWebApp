@@ -1,2 +1,0 @@
-TOKEN = '7071821534:AAETuSgVmsEvLQTy8ZBv6ajbyy-2wP6KIPE'
-BOT_NICKNAME = 'kinsterWebApp_bot'
